@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 29, 2023, 8:25:18 PM
+    Author     : Nandavahindra
+
+I use this CSS to design the login page
+*/
+
+.bg-form{
+    -fx-background-color: linear-gradient(to top right, #2e1437, #51425f);
+}
+
+.login-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.login-button:hover{
+    -fx-background-color: #948e99;
+}
+.login-button:pressed{
+    -fx-background-color: #cad1c3;
+}
+
+.close{
+    -fx-background-color: transparent;
+}
+.close:hover{
+    -fx-background-color: red;
+}
+.close:pressed{
+    -fx-background-color: #cad1c3;
+}
+
+.username{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0px 0px .4px 0px;
+}
+.username:focused{
+    -fx-border-color: #e7eed0;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.hyperlink{
+    -fx-underline: false;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+.hyperlink:hover{
+    -fx-text-fill: #948e99;
+}
